@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./asset/svg/Vector.svg" type="image/x-icon">
+   <title>Sell Products</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" href="./asset/css/sellproduct.css">
+</head>
+<body>
+   <header>
+      <section class="row w-80 h-100">
+         <section class="col-2 d-flex align-items-center h-100">
+            <img class="logo" src="./asset/svg/Vector.svg" alt="">
+            <h1 class="p-logo">Blanja</h1>
+         </section>
+         <section class="col-8">
+
+         </section>
+         <section class="col-2 d-flex align-items-center h-100 justify-content-between">
+            <img src="./asset/svg/bell (1) 1.svg" alt="">
+            <img src="./asset/svg/mail (3) 1.svg" alt="">
+            <img class="profile" src="./asset/img/christian-buehner-DItYlc26zVI-unsplash 1.png" alt="">
+         </section>
+      </section>
+   </header>
+   <nav>
+      <section class="identity">
+         <img class="profile float-start" style="margin-right:15px" src="./asset/img/christian-buehner-DItYlc26zVI-unsplash 1 (1).png" alt="">
+         <p class="name">Johanes Mikael</p>
+         <p><img class="small" src="./asset/svg/edit.svg" alt=""> Ubah profil</p>
+      </section>
+      <section class="menus">
+         <section class="d-flex align-items-center menu p-relative"><button class="icon" style="--url: url('../svg/store.svg'); --bgcolor:#456BF3"></button><p class="m-15">My Store</p><img class="dropdown-icon" src="./asset/svg/dropdown.svg" alt=""></section>
+         <section class="d-flex align-items-center menu p-relative"><button class="icon" style="--url: url('../svg/product.svg'); --bgcolor:#F36F45"></button><p class="m-15" Active>Products</p><img class="dropdown-icon" src="./asset/svg/dropdown.svg" alt=""></section>
+         <p>My Products</p>
+         <p active>Selling Products</p>
+         <section class="d-flex align-items-center menu p-relative"><button class="icon" style="--url: url('../svg/trolli.svg'); --bgcolor:#F3456F"></button><p class="m-15">Orders</p><img class="dropdown-icon" src="./asset/svg/dropdown.svg" alt=""></section>  
+      </section>
+   </nav>
+   <main>
+      <section class="main-form">
+         <h1 class="my-profile">Inventory</h1>
+         <hr>
+         <p>Name of goods</p>
+         <input type="text" class="input-form w-50">
+      </section>
+      <section class="main-form">
+         <h1 class="my-profile">Item detail</h1>
+         <hr>
+         <p>Unit price</p>
+         <input type="text" class="input-form w-50">
+         <p>Stock</p>
+         <section class="parent">
+            <input id="stock" type="text" class="input-form w-50" ><p id="stock">Buah</p>
+         </section>
+         <p>Stock</p>
+         <section class="input-form hidden p-0">
+            <input type="radio" name="baru" checked><label class="gender" for="baru">Baru</label>
+            <input type="radio" name="bekas"><label class="gender" for="bekas">Bekas</label>
+         </section>
+      </section>
+      <section class="main-form">
+         <h1 class="my-profile">Photo of goods</h1>
+         <hr>
+         <section class="w-100 photo-container dashed">
+            <section class="images-contain">
+               <button class="image-space image-main"></button>
+               <button class="image-space"></button>
+               <button class="image-space"></button>
+               <button class="image-space"></button>
+               <button class="image-space"></button>
+            </section>
+            <hr>
+            <button class="select-image center">Upload Photo</button>
+         </section>
+      </section>
+      <section class="main-form">
+         <h1 class="my-profile">Description</h1>
+         <hr>
+         <section class="w-100 parent">
+            <img id="editor" src="./asset/img/editor.png" alt="">
+            <hr class="line w-100">
+            <textarea class="text-desc" name="" id="" cols="30" rows="10">
+            </textarea>
+         </section>
+      </section>
+      <section class="button-end">
+         <button class="end-save">Save</button>
+      </section>
+      
+   </main>
+</body>
+</html>
